@@ -1,0 +1,23 @@
+{
+  "name": "country-base64",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "knex": "^0.14.6",
+    "mysql2": "^1.5.3",
+    "next": "^5.1.0",
+    "polka": "^0.3.4",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2"
+  }
+}
